@@ -1,0 +1,12 @@
+function prime(num){
+	var isPrime = true;
+	for(x=num; x>2; x--){
+		if(Number.isInteger(num/(x-1)) && x!==1){
+			isPrime = false;
+			return isPrime;
+		}else{}
+	}
+return isPrime;
+}
+
+prime(4);
